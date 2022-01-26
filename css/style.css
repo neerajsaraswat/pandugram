@@ -5,5 +5,34 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: hsla(0, 11%, 89%, 0.61);
+}
+
+.box1,.box2{
+    background-color: white;
+    text-align: center;
+    border:grey solid 1px;
+    margin:0% 25%;
+    width: 400px;
+}
+
+.form{
+    align-content: center;
+}
+
+.box1>.login-form>.form>form>input{
+    margin: 4px;
+    padding: 2px 0px 2px 2px;
+    /* align-self: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    display: flex;
+}
+
+
+.download{
+    border:grey 1px solid;
+    border-radius: 8px;
+    width: 125px;
+    padding: 0px;
 }
